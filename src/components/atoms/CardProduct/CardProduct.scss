@@ -1,0 +1,39 @@
+.CardProduct {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 350px;
+  border-radius: 10px;
+  border: 2px solid #d8d8d8;
+  padding: 5px;
+
+  img {
+    height: 240px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .card-footer {
+    border-radius: 8px;
+    padding: 10px;
+    height: 89px;
+    min-width: 93%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #39353521;
+
+
+
+    .flex {
+      width: 100%;
+    }
+  }
+
+
+}

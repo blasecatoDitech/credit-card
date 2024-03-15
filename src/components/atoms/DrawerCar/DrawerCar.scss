@@ -1,0 +1,42 @@
+.DrawerCar {}
+
+.ant-drawer {
+  .button-float {
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .button-confirm {
+      height: 50px;
+      width: 150px;
+      border-radius: 40px;
+
+      &:hover {
+        background-color: #fa9600;
+        border-color: #fa9600 !important;
+
+        span {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  &-body {
+    padding-bottom: 100px !important;
+  }
+
+  &-header-title {
+    flex-direction: row-reverse;
+  }
+
+  &-close {
+    margin-inline-end: 0 !important;
+  }
+}
